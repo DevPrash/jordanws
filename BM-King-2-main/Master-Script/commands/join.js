@@ -6,7 +6,7 @@ module.exports = {
         const vc = message.member.voice.channel;
         if(vc) {
             const connection = vc.join();
-            message.channel.send('I joined the vc');
+            message.channel.send('Successfully joined the VC');
         } else {
             message.reply('Ýou need to join vc first');
         }
